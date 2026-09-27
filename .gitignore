@@ -1,0 +1,20 @@
+# Dataset files - too large for Git, everyone downloads from challenge portal
+*.tsv
+*.csv
+data/
+dataset/
+student_resource/dataset/
+
+# Generated output
+*_clean.tsv
+eda_output.txt
+clean_output.txt
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+__MACOSX/
+.DS_Store
